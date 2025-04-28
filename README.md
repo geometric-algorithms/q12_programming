@@ -24,7 +24,7 @@ Both parts use efficient spatial decomposition strategies to ensure correctness 
 
 - **Input**: A set \( S \) of disjoint, octilinear polygons (edges axis-aligned or at 45° angles), all contained within a square \( Q \).
 - **Output**: An adaptive triangular mesh that conforms to \( S \).
-- **Performance Target**: The mesh should have \( O(p(S) \log U) \) triangles, where \( p(S) \) is the total perimeter and \( U \) is the bounding square size.
+- **Performance Target**: The mesh should have \( O(p(S)log U) \) triangles, where \( p(S) \) is the total perimeter and \( U \) is the bounding square size.
 - **Hint Used**: Compressed quadtree-based refinement.
 
 ---
