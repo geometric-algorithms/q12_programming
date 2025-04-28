@@ -17,7 +17,7 @@ Both parts use efficient spatial decomposition strategies to ensure correctness 
 
 ### Part (a): Quadtree Decomposition
 
-- **Input**: A finite set \( P \) of points in \( \mathbb{R}^2 \).
+- **Input**: A finite set \( P \) of points in \( \mathb{R}^2 \).
 - **Output**: A quadtree decomposition of the bounding square of \( P \), with each leaf cell containing at most a constant number of points.
 
 ### Part (b): Adaptive Triangular Mesh
