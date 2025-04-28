@@ -17,7 +17,8 @@ Both parts use efficient spatial decomposition strategies to ensure correctness 
 
 ### Part (a): Quadtree Decomposition
 
-- **Input**: A finite set \( P \) of points in ℝ².
+
+- **Input**: A finite set \( P \) of points in \( R^2 \).
 - **Output**: A quadtree decomposition of the bounding square of \( P \), with each leaf cell containing at most a constant number of points.
 
 ### Part (b): Adaptive Triangular Mesh
@@ -33,9 +34,9 @@ Both parts use efficient spatial decomposition strategies to ensure correctness 
 
 ### Part (a): Quadtree Decomposition
 
-1. **Navigate** to the `Quadtree/` directory:
+1. **Navigate** to the `A/` directory:
    ```bash
-   cd Quadtree
+   cd A
    ```
 
 2. **Run the script**:
@@ -64,9 +65,9 @@ Both parts use efficient spatial decomposition strategies to ensure correctness 
 
 ### Part (b): Adaptive Triangulation
 
-1. **Navigate** to the `Adaptive traingulation/` directory:
+1. **Navigate** to the `B/` directory:
    ```bash
-   cd "Adaptive traingulation"
+   cd B
    ```
 
 2. **Run the script**:
@@ -125,6 +126,5 @@ No external installations are required.
 
 - Read the report for clear understanding of the code and algorithms used.
 - For best results, ensure distinct points and correct formatting in manual inputs.
-- Additional testcases for new polygons can be added in the `testcases/` folder, Also set the appropriate boundaries(U) as well.
 
 ---
